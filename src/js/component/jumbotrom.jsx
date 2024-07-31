@@ -1,24 +1,22 @@
 import React from "react";
+import "../../styles/jumbotrom.css"
 
-//include images into your bundle
-// import rigoImage from "../../img/rigo-baby.jpg";
 
-//create your first component
 const Jumbotron = () => {
     return (
-        <>
-            <div className="container bg-light">
+        <div className="jumbotrom row">
+            <div className="container-fluid">
                 <div className="jumbotron p-5">
-                    <h1 className="display-4">A Warm Welcome</h1>
+                    <h1 className="display-4"><strong>Bienvenidos a Michilandia 🐈 </strong></h1>
                     <p className="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quae asperiores reprehenderit impedit fugiat hic placeat reiciendis rem itaque fuga excepturi harum quibusdam suscipit maxime a quod, sit veniam laborum.
+                    Durante la historia humana, los gatos han sido tratados de muchas formas de acuerdo a la época en la que viven, como por ejemplo, en el Antiguo Egipto era venerado y considerado como un símbolo religioso. La diosa Bástis era representada como gato. En muchos museos egipcios hay figuras de estos animales y en la Edad Media era quemado en hogueras porque ellos creían que eran asociados con el demonio, los odiaban y les temían porque eran "la mejor compañía de las brujas".
                     </p>
                     <p className="lead">
-                        <a className="btn btn-primary btn-lg" href="#" role="button"> Call action </a>
+                        <a className="btn btn-dark btn-lg" href="#" role="button"> Adopta un Miau</a>
                     </p>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

@@ -1,0 +1,24 @@
+
+
+
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.74); /* Sombra */
+    background-color: rgba(35, 58, 36, 0.747);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.navbar-brand{
+    font-size: xx-large;
+    animation: navbar-brand 15s linear infinite;
+}
+
+
+@keyframes navbar-brand {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

@@ -10,15 +10,19 @@
 
 */
 
-.card {
-
-    color: black;
-    width: 18rem;
+.carta {
+    
+    background-color: black ;
     margin-top: 2rem;
-    gap: 1rem;
+  
+    
+    
+}
 
 
-
-
+.card-text {
+    padding: 5px;
+    border-bottom: 0.5px solid rgb(105, 105, 105);
+    color:white
 }
 
