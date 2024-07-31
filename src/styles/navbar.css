@@ -5,7 +5,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.74); /* Sombra */
     background-color: rgba(35, 58, 36, 0.747);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-size: large;
 }
 
 .navbar-brand{
