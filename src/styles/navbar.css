@@ -1,14 +1,12 @@
-
-
-
 .navbar {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.74); /* Sombra */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.74);
+    /* Sombra */
     background-color: rgba(35, 58, 36, 0.747);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: xx-large;
     animation: navbar-brand 15s linear infinite;
 }
@@ -18,7 +16,20 @@
     0% {
         transform: translateX(100%);
     }
+
     100% {
         transform: translateX(-100%);
     }
+}
+
+.primerboton, .segundoboton, .tercerboton, .cuartoboton{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black; 
+}
+
+.primerboton:hover, .segundoboton:hover, .tercerboton:hover, .cuartoboton:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0.5, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 10%;
 }

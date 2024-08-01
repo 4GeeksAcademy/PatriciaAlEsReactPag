@@ -1,10 +1,6 @@
 import React from "react";
 
 
-// // Include Bootstrap styles
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
-// Import your own components
 import Jumbotrom from "./jumbotrom.jsx";
 import Navbar, { Navbar2 } from "./navbar.jsx";
 
@@ -22,7 +18,7 @@ const Home = () => {
                         text="Al igual que sus parientes salvajes, los gatos domésticos son cazadores natos, capaces de acechar a sus presas y abalanzarse sobre ellas con sus garras y dientes. Son particularmente eficaces de noche, cuando sus ojos reflectantes les dotan de una visión mucho más nítida que la de sus víctimas. También poseen un oído muy agudo. Al igual que todos los felinos, son ágiles y rápidos y sus largas colas les ayudan a tener un extraordinario sentido del equilibrio.."
                         buttonText="Michiboton"
                         link="#"
-                        
+
                     />
                     <Card
                         image="https://i.pinimg.com/236x/e1/80/37/e18037bd65a0d58717a34f7abb5c3c19.jpg"

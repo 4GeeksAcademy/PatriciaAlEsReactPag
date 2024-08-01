@@ -1,8 +1,6 @@
 import React from "react";
 import "../../styles/navbar.css";
-import Proptype from "prop-types";
 
-// Componente principal exportado por defecto
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg p-2 mb-3">
@@ -25,7 +23,7 @@ const Navbar = () => {
                                 <a className="tercerboton nav-link" href="https://www.royalcanin.com/es/cats/thinking-of-getting-a-cat/how-to-care-for-a-kitten-or-cat?utm_campaign=on-rc-es-consideration-consideration-x-idcp21316077764&utm_source=googleSearch&utm_medium=brand-searchPaid-cat&utm_content=broad-x&gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQjwwae1BhC_ARIsAK4JfrzaQ0l4YD9xpwFTe72vb6Jj68lKwPtx7m_72fOOmZnaPBCyD4PucJUaAhLAEALw_wcB">Habitos</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://www.fundacion-affinity.org/perros-gatos-y-personas/busco-un-animal-de-compania/la-adopcion-de-perros-y-gatos-perfecta-existe?gad_source=1&gclid=Cj0KCQjwwae1BhC_ARIsAK4JfryLgNTYEw448jQcpy_-TFqGUG2zvtUlvPksUZ1Wb88QFnaNXUbYXOcaAvVREALw_wcB" >Primeros Pasos</a>
+                                <a className="cuartoboton nav-link" href="https://www.fundacion-affinity.org/perros-gatos-y-personas/busco-un-animal-de-compania/la-adopcion-de-perros-y-gatos-perfecta-existe?gad_source=1&gclid=Cj0KCQjwwae1BhC_ARIsAK4JfryLgNTYEw448jQcpy_-TFqGUG2zvtUlvPksUZ1Wb88QFnaNXUbYXOcaAvVREALw_wcB" >Primeros Pasos</a>
                             </li>
                         </ul>
                     </span>
@@ -34,14 +32,7 @@ const Navbar = () => {
         </nav>
     );
 };
-// Navbar.propTypes = {
-//     title: Proptype.string,
-//     primerboton: Proptype.string,
-//     segundoboton: Proptype.string,
-//     tercerboton: Proptype.string,
-//     cuartoboton: Proptype.string
 
-// }
 export const Navbar2 = () => {
     return (
         <div className="bg-dark mt-5 text-light text-center py-2">
